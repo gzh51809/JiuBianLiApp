@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//引入Ant Design 插件
+import {Button} from 'antd';
 
 class App extends Component {
   render() {
@@ -20,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Button type="primary">今天也是充满希望的一天</Button>
       </div>
     );
   }
